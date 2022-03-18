@@ -4,6 +4,7 @@ import logo1 from '../assets/logo1.jpg';
 import logo2 from '../assets/logo2.jpg';
 import logo3 from '../assets/logo3.jpg';
 import logo4 from '../assets/logo4.jpg';
+import logo5 from '../assets/logo5.jpg';
 import { GoLocation } from 'react-icons/go';
 import { MdVerified } from 'react-icons/md';
 import { MdOutlineVerified } from 'react-icons/md';
@@ -93,6 +94,26 @@ const JobList = () => {
             </Desc2>
             </div>
 
+            <div>
+            <Desc1>
+                <section>
+                    <img src={logo5} alt="logo5" />
+                </section>
+                <div>
+                    <h1>SQL Sr.</h1>
+                    <h3><GoLocation/>Remote - Mexico</h3>
+                </div>
+            </Desc1>
+            
+            <Desc2>
+                    <div>
+                    <button>Backend</button>
+                    <button>SQL</button>
+                    </div>
+                    <h3><MdVerified/> Payment Verified</h3>
+            </Desc2>
+            </div>
+
         </Container>
     )
 }
@@ -103,6 +124,11 @@ const Container = styled.div`
     flex-direction: column;
     margin-top: 50px;
     width: 30%;
+    overflow-y: scroll;
+    height: 80%;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    scroll-behavior: smooth;
 
     div{
         margin-bottom: 10px;

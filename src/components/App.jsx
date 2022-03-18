@@ -25,11 +25,13 @@ const Container1 = styled.div`
   background-color: #15182B ;
   height: 100% ;
   width: 100%;
-  position: absolute;
+  position: fixed;
 `;
 
 const Container2 = styled.div`
   display: flex;
   flex-direction: row;
+  height: 100% ;
+  width: 100%;
 `
 export default App;

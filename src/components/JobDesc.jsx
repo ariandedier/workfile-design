@@ -63,7 +63,7 @@ const Container = styled.div`
     margin-left: 10px;
     border-radius: 10px;
     width: 40%;
-    height: 93%;
+    height: 80%;
 `
 const Desc1 = styled.div`
     display: flex;
@@ -133,7 +133,7 @@ const Reqs = styled.div`
 
     button{
         margin-top: 50px;
-        margin-left: 570px;
+        margin-left: 550px;
         padding: 30px;
         background-color: #075AF6;
         border-radius: 10px;
